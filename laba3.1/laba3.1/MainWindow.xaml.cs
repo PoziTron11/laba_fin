@@ -34,6 +34,8 @@ namespace lab3wpf
 
 
 
+
+
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
             res.Content = int.Parse(A.Text) - int.Parse(B.Text);
