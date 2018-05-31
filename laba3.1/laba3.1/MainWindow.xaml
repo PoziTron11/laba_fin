@@ -11,9 +11,6 @@
 		<Label x:Name="res" Content="Label" HorizontalAlignment="Left" Height="44" Margin="109,322,0,0" VerticalAlignment="Top" Width="284"/>
 		<Button Content="+" HorizontalAlignment="Left" Margin="147,194,0,0" VerticalAlignment="Top" Width="100" Height="107" Click="Button_Click"/>
 		<TextBox x:Name="B" HorizontalAlignment="Left" Height="73" Margin="524,76,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="110"/>
-		<Button Content="*" HorizontalAlignment="Left" Height="107" Margin="450,194,0,0" VerticalAlignment="Top" Width="103" Click="Button_Click_1"/>
-		<Button Content="/" HorizontalAlignment="Left" Height="107" Margin="304,194,0,0" VerticalAlignment="Top" Width="105" Click="Button_Click_2"/>
-		<Button Content="-" HorizontalAlignment="Left" Height="107" Margin="621,194,0,0" VerticalAlignment="Top" Width="83" Click="Button_Click_1"/>
 
 
 	</Grid>
