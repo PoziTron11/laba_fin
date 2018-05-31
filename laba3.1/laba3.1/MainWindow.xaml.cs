@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace laba3._1
+namespace lab3wpf
 {
     /// <summary>
     /// Логика взаимодействия для MainWindow.xaml
@@ -24,5 +24,11 @@ namespace laba3._1
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            res.Content = int.Parse(A.Text) + int.Parse(B.Text);
+        }
+
     }
 }
