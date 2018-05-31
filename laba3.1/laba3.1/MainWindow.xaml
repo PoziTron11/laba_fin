@@ -10,9 +10,12 @@
 		<TextBox x:Name="A" HorizontalAlignment="Left" Height="73" Margin="147,76,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" AutomationProperties.Name="A"/>
 		<Label x:Name="res" Content="Label" HorizontalAlignment="Left" Height="44" Margin="109,322,0,0" VerticalAlignment="Top" Width="284"/>
 		<TextBox x:Name="B" HorizontalAlignment="Left" Height="73" Margin="524,76,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="110"/>
-		
-		
+
+
 		<Button Content="/" HorizontalAlignment="Left" Height="106" Margin="686,200,0,0" VerticalAlignment="Top" Width="77" Click="Button_Click"/>
+		<Button Content="+" HorizontalAlignment="Left" Height="106" Margin="84,200,0,0" VerticalAlignment="Top" Width="83" Click="Button_Click_3"/>
+		<Button Content="-" HorizontalAlignment="Left" Height="106" Margin="282,200,0,0" VerticalAlignment="Top" Width="97" Click="Button_Click_1"/>
+		<Button Content="*" HorizontalAlignment="Left" Height="106" Margin="500,200,0,0" VerticalAlignment="Top" Width="85" Click="Button_Click_2"/>
 
 	</Grid>
 </Window>
