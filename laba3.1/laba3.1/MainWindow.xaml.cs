@@ -25,7 +25,9 @@ namespace lab3wpf
             InitializeComponent();
         }
 
-       
+
+
+
 
 
 
