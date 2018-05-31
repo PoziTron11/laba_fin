@@ -30,11 +30,7 @@ namespace lab3wpf
             res.Content = int.Parse(A.Text) + int.Parse(B.Text);
         }
 
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-            res.Content = int.Parse(A.Text) * int.Parse(B.Text);
-        }
-
+       
       
     }
 }
