@@ -24,6 +24,10 @@ namespace lab3wpf
         {
             InitializeComponent();
         }
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            res.Content = int.Parse(A.Text) + int.Parse(B.Text);
+        }
 
 
 
@@ -56,6 +60,7 @@ namespace lab3wpf
           
             
             res.Content = int.Parse(A.Text) * int.Parse(B.Text);
+          
         }
     }
 }
